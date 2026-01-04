@@ -38,6 +38,7 @@ export default defineConfig<TestOptions>({ //set <testOptions> if you use enviro
      globalsQaURL: 'https://www.globalsqa.com/demo-site/draganddrop', //environment variable, add test-options.ts file
 
     trace: 'on-first-retry',
+    screenshot: "only-on-failure",
     //actionTimeout: 5000, //configurable
     //navigationTimeout: 5000, //configurable
     video: {
